@@ -4,6 +4,6 @@
 # Declare variables to be passed into your templates.
 container:
   name: nginx
-  image: saintsinnerr/jenkins:30
+  image: saintsinnerr/jenkins:35
   restart: Always
   labels: nginx-app
