@@ -1,9 +1,0 @@
----
-# Default values for my-nginx-chart.
-# This is a YAML-formatted file.
-# Declare variables to be passed into your templates.
-container:
-  name: nginx
-  image: saintsinnerr/jenkins:37
-  restart: Always
-  labels: nginx-app
